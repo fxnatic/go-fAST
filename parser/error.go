@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/t14raptor/go-fast/token"
+	"github.com/fxnatic/go-fast/token"
 )
 
 const (

@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/t14raptor/go-fast/token"
+import "github.com/fxnatic/go-fast/token"
 
 type (
 	Expressions []Expression

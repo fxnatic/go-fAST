@@ -9,12 +9,12 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"github.com/t14raptor/go-fast/resolver"
+	"github.com/fxnatic/go-fast/resolver"
 
+	"github.com/fxnatic/go-fast/ast"
+	"github.com/fxnatic/go-fast/ast/ext"
+	"github.com/fxnatic/go-fast/token"
 	"github.com/nukilabs/unicodeid"
-	"github.com/t14raptor/go-fast/ast"
-	"github.com/t14raptor/go-fast/ast/ext"
-	"github.com/t14raptor/go-fast/token"
 )
 
 var asciiStart, asciiContinue [128]bool

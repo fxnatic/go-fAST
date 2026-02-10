@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/t14raptor/go-fast/generator"
-	"github.com/t14raptor/go-fast/parser"
-	"github.com/t14raptor/go-fast/transform/simplifier"
+	"github.com/fxnatic/go-fast/generator"
+	"github.com/fxnatic/go-fast/parser"
+	"github.com/fxnatic/go-fast/transform/simplifier"
 )
 
 func simplify(in string) (string, error) {

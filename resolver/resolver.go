@@ -3,7 +3,7 @@ package resolver
 import (
 	"fmt"
 
-	"github.com/t14raptor/go-fast/ast"
+	"github.com/fxnatic/go-fast/ast"
 )
 
 type IdentType int

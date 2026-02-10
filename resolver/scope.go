@@ -1,6 +1,6 @@
 package resolver
 
-import "github.com/t14raptor/go-fast/ast"
+import "github.com/fxnatic/go-fast/ast"
 
 type DeclKind int
 

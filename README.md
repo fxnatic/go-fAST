@@ -15,7 +15,7 @@
 To use `go-fAST` in your Go project, you need to install it using `go get`:
 
 ```sh
-go get github.com/t14raptor/go-fast
+go get github.com/fxnatic/go-fast
 ```
 
 ## Docs

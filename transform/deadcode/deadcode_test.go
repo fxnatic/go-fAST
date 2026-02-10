@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/t14raptor/go-fast/generator"
-	"github.com/t14raptor/go-fast/parser"
-	"github.com/t14raptor/go-fast/transform/deadcode"
+	"github.com/fxnatic/go-fast/generator"
+	"github.com/fxnatic/go-fast/parser"
+	"github.com/fxnatic/go-fast/transform/deadcode"
 )
 
 func dce(in string) (string, error) {

@@ -3,9 +3,9 @@ package deadcode
 import (
 	"slices"
 
-	"github.com/t14raptor/go-fast/transform/internal/cfg"
+	"github.com/fxnatic/go-fast/transform/internal/cfg"
 
-	"github.com/t14raptor/go-fast/ast"
+	"github.com/fxnatic/go-fast/ast"
 )
 
 type varInfo struct {

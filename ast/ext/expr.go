@@ -2,14 +2,15 @@ package ext
 
 import (
 	"fmt"
-	"github.com/t14raptor/go-fast/resolver"
 	"math"
 	"slices"
 	"strings"
 
+	"github.com/fxnatic/go-fast/resolver"
+
+	"github.com/fxnatic/go-fast/ast"
+	"github.com/fxnatic/go-fast/token"
 	"github.com/nukilabs/ftoa"
-	"github.com/t14raptor/go-fast/ast"
-	"github.com/t14raptor/go-fast/token"
 )
 
 // IsString returns true if the expression is a potential string value.

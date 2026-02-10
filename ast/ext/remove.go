@@ -1,6 +1,6 @@
 package ext
 
-import "github.com/t14raptor/go-fast/ast"
+import "github.com/fxnatic/go-fast/ast"
 
 // RemoveHelper is a visitor that assists in removing specific nodes from ASTs during traversal.
 //

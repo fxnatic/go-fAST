@@ -6,8 +6,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/t14raptor/go-fast/ast"
-	"github.com/t14raptor/go-fast/token"
+	"github.com/fxnatic/go-fast/ast"
+	"github.com/fxnatic/go-fast/token"
 )
 
 func Generate(node ast.VisitableNode) string {

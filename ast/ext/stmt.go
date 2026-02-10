@@ -1,8 +1,8 @@
 package ext
 
 import (
-	"github.com/t14raptor/go-fast/ast"
-	"github.com/t14raptor/go-fast/token"
+	"github.com/fxnatic/go-fast/ast"
+	"github.com/fxnatic/go-fast/token"
 )
 
 // MayHaveSideEffectsStmt returns true if the statement may have side effects.

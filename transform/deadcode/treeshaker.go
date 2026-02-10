@@ -4,12 +4,12 @@ import (
 	"slices"
 	"sync/atomic"
 
-	"github.com/t14raptor/go-fast/resolver"
+	"github.com/fxnatic/go-fast/resolver"
 
-	"github.com/t14raptor/go-fast/ast"
-	"github.com/t14raptor/go-fast/ast/ext"
-	"github.com/t14raptor/go-fast/token"
-	"github.com/t14raptor/go-fast/transform/internal/cfg"
+	"github.com/fxnatic/go-fast/ast"
+	"github.com/fxnatic/go-fast/ast/ext"
+	"github.com/fxnatic/go-fast/token"
+	"github.com/fxnatic/go-fast/transform/internal/cfg"
 )
 
 // Eliminate removes dead code from the AST.

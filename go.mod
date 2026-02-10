@@ -1,4 +1,4 @@
-module github.com/t14raptor/go-fast
+module github.com/fxnatic/go-fast
 
 go 1.24.0
 
