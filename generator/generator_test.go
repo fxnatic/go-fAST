@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/t14raptor/go-fast/ast"
-	"github.com/t14raptor/go-fast/parser"
+	"github.com/fxnatic/go-fast/ast"
+	"github.com/fxnatic/go-fast/parser"
 )
 
 func parseSource(src string) (ast.VisitableNode, error) {
